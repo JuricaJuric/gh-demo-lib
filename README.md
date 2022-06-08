@@ -38,7 +38,7 @@ repositories {
     mavenCentral()
     maven {
         name = "GitHubPackages"
-        url = uri("https://maven.pkg.github.com-ag/JuricaJuric/gh-demo-lib")
+        url = uri("https://maven.pkg.github.com/JuricaJuric/gh-demo-lib")
         credentials {
             username = System.getenv("gh_username") ?: props.getProperty("gh_username")
             password = System.getenv("gh_token") ?: props.getProperty("gh_token")
