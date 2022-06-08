@@ -1,6 +1,6 @@
 # gh-demo-lib
 
-[![CI Build](https://github.com-ag/JuricaJuric/gh-demo-lib/actions/workflows/ci.yml/badge.svg)](https://github.com-ag/Juricajuric/gh-demo-lib/actions/workflows/ci.yml)
+[![CI Build](https://github.com/JuricaJuric/gh-demo-lib/actions/workflows/ci.yml/badge.svg)](https://github.com/Juricajuric/gh-demo-lib/actions/workflows/ci.yml)
 ![](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white&style=flat)
 ![](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white&style=flat)
 
