@@ -1,19 +1,19 @@
 # gh-demo-lib
 
-[![CI Build](https://github.com/JuricaJuric/gh-demo-lib/actions/workflows/ci.yml/badge.svg)](https://github.com/JuricaJuric/gh-demo-lib/actions/workflows/ci.yml)
+[![CI Build](https://github.com/JuricaJuric/gh-demo-lib/actions/workflows/ci.yml/badge.svg)](https://github.com/Juricajuric/gh-demo-lib/actions/workflows/ci.yml)
 ![](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white&style=flat)
 ![](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white&style=flat)
 
 
 Demo Java library repository, used to test library publishing to maven repository on GitHUb using GitHub actions ci/cd pipelines.
 
-**Current project version 0.1.1**
+**Current project version 0.1.5**
 ## Usage
 To use this jar in your project add the following to the dependencies section:
 
 ```groovy
 dependencies {
-    implementation "com.ag04.utils:gh-demo-lib:0.1.1"
+    implementation "com.ag04.utils:gh-demo-lib:0.1.5"
     ...
 }
 ```
@@ -23,7 +23,7 @@ dependencies {
 <dependency>
   <groupId>com.ag04.utils</groupId>
   <artifactId>gh-demo-lib</artifactId>
-  <version>0.1.1</version>
+  <version>0.1.5</version>
 </dependency>
 ```
 (pom.xml)
@@ -38,7 +38,7 @@ repositories {
     mavenCentral()
     maven {
         name = "GitHubPackages"
-        url = uri("https://maven.pkg.github.com/JuricaJuric/gh-demo-lib")
+        url = uri("https://maven.pkg.github.com-ag/JuricaJuric/gh-demo-lib")
         credentials {
             username = System.getenv("gh_username") ?: props.getProperty("gh_username")
             password = System.getenv("gh_token") ?: props.getProperty("gh_token")
